@@ -1,7 +1,6 @@
 import { MainLayout, RegisterLayout } from 'src/layouts';
 import { useRoutes } from 'react-router-dom';
 import { Home } from 'src/pages';
-
 function useRouteElements() {
     const routeElements = useRoutes([
         {
